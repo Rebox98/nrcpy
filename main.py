@@ -1,6 +1,5 @@
 from nrcpy import NrcDevice
 
-
 ip='192.168.1.200'
 port=23
 username="admin"
