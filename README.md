@@ -1,6 +1,6 @@
-# Nrcpy
+# NrcPy
 
-Nrcpy is a Python package for working with NRC devices. It provides a convenient interface to connect to an NRC device, send commands, and retrieve information from the device.
+NrcPy is a Python package for working with NRC devices. It provides a convenient interface to connect to an NRC device, send commands, and retrieve information from the device.
 
 ## 🔥 Installation
 

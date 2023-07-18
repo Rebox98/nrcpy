@@ -5,7 +5,7 @@ long_description = (this_directory / "readme.md").read_text()
 
 setup(
     name='nrcpy',
-    version='1.2.2',
+    version='1.2.3',
     description='A package for NRC devices',
     author='Hossein Ghaheri',
     author_email='hosseinghaheri@yahoo.com',
