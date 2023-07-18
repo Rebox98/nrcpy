@@ -2,14 +2,14 @@
 
 Nrcpy is a Python package for working with NRC devices. It provides a convenient interface to connect to an NRC device, send commands, and retrieve information from the device.
 
-## Installation
+## 🔥 Installation
 
 You can install `nrcpy` using pip:
 
 ```shell
 pip install nrcpy
 ```
-## Usage
+## 🪧 Usage
 Here is an example of how to use nrcpy to connect to an NRC device and control the relays:
 ```python
 from nrcpy import NrcDevice
