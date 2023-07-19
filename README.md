@@ -36,20 +36,20 @@ if nrc.login():
     print("Relay 2 Status:" ,nrc.getRelayValue(2))
 
     try: 
-        print("SW Inputs Status:" ,nrc.getSwInputsValues())
+        print("SW Inputs Status (hex):" ,nrc.getSwInputsValues())
         print("SW 1 Status:" ,nrc.getSwInputValue(1))
         print("SW 2 Status:" ,nrc.getSwInputValue(2))
         print("SW 3 Status:" ,nrc.getSwInputValue(3))
     except Exception as e: 
-        print("SW Inputs Status:" ,e)
+        print("Error:" ,e)
 
     try: 
-        print("HV Inputs Status:" ,nrc.getHvInputsValues())
+        print("HV Inputs Status (hex):" ,nrc.getHvInputsValues())
         print("HV 1 Status:" ,nrc.getHvInputValue(1))
         print("HV 2 Status:" ,nrc.getHvInputValue(2))
         print("HV 3 Status:" ,nrc.getHvInputValue(3))
     except Exception as e: 
-        print("HV Inputs Status:" ,e)
+        print("Error:" ,e)
 else:
     print("Error in login")
 
